@@ -1,0 +1,36 @@
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+  }
+  
+  #resetButton{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    height: 100px;
+    margin-bottom: 10px;
+    width: 960px;
+    background-color: #3498db;
+    border-bottom: none;
+    color: #fff;
+    
+  }
+
+
+  
+
+  #container {
+    min-height: 960px;
+    max-width:  960px;
+    display: grid;
+    grid-template-columns: repeat(var(--grid-cols), 1fr);
+  }
+  
+  .grid-item {
+    border: 1px solid #ddd;
+    text-align: center;
+    min-width: 0;
+  }
+    
